@@ -1,5 +1,6 @@
 import logging
 from datetime import datetime
+import traceback
 
 LOG_FILENAME = 'error_log.out'
 logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
